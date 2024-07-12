@@ -15,11 +15,11 @@ SetRelationshipBetweenGroups(1, `COP`, `PLAYER`)
 SetRelationshipBetweenGroups(1, `PRISONER`, `PLAYER`)
 
 local density = {
-    parked = 0.8,
-    vehicle = 0.8,
-    multiplier = 0.8,
-    peds = 0.8,
-    scenario = 0.8,
+    parked = 0.4,
+    vehicle = 0.4,
+    multiplier = 0.4,
+    peds = 0.3,
+    scenario = 0.0,
 }
 
 local function decorSet(type, value)
